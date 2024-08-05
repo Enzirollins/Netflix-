@@ -1,0 +1,292 @@
+
+/* start responsiveness for madie screen */
+@media only screen and (min-width: 428px) {
+    .nav-cover {
+    padding: 0px 50px 0px 50px;
+}
+
+#nav-hero-section section {
+    margin-top: 80px;
+}
+
+.input-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+section div input[type="text"] {
+    width: 350px;
+}
+
+section div button {
+    margin-top: 0px;
+}
+
+.Watch{
+    font-size: clamp(1.5rem, 10vw, 1.5rem); 
+}
+
+.Ready {
+    font-size: clamp(1.3rem, 10vw, 1.3rem);
+}
+
+.phone-image img {
+    width: 300px;
+    padding-top: 20px;
+}
+
+}
+/* end responsiveness for madie screen */
+
+
+
+
+
+/* start responsiveness for big screen */
+
+@media only screen and (min-width: 900px) {
+
+    #nav-hero-section {
+        height: 100vh;
+    }
+
+    .nav-cover {
+        padding: 0px 150px 0px 150px;
+    }
+
+    .img-logo {
+        width: 200px;
+    }
+
+    #nav-hero-section section {
+        margin-top: 100px;
+    }
+
+    .Unlimited {
+        font-size: clamp(3.2rem, 10vw, 3.2rem); 
+    }
+
+    section {
+        padding-top: 30px;
+    }
+
+    section div button {
+        margin-top: 0px;
+    }
+
+    section div input[type="text"] {
+        width: 400px;
+    }
+
+    /* start of main body */
+main {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.main-text {
+    text-align: start;
+}
+
+.enjoy {
+    font-size: clamp(2.8rem, 10vw, 2.8rem); 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.Watchon {
+    font-size: clamp(1.4rem, 10vw, 1.4rem); 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    width: 400px;
+}
+.main-tv img {
+    width: 450px;
+}
+/* end of main body*/
+
+
+/* start of second main body */
+.second-main-body {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.phone-text {
+    text-align: start;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.phone-text .Download {
+    font-size: clamp(2.6rem, 10vw, 2.6rem); 
+    width: 400px;
+    line-height: 1.3em;
+}
+.phone-text .saveyour {
+    font-size: clamp(1.5rem, 10vw, 1.5rem); 
+    width: 460px;
+}
+/* end of second main body */
+
+
+/* start of third main body */
+.third-main-body {
+    height: 60vh;
+}
+
+.third-main-body div {
+    text-align: start;
+    padding-left: 20%;
+    padding-top: 30px;
+    width: 50%;
+}
+
+.third-main-body div .watch-eveywhere {
+    font-size: clamp(2.7em, 10vw, 2.7em); 
+    font-weight: bolder;
+    line-height: 1.3em;
+}
+
+.third-main-body div .stream {
+    padding-top: 20px;
+    font-size: clamp(1.3rem, 6vw, 1.3rem); 
+    line-height: 1.4em;
+}
+/* end of third main body */
+
+
+/* start of fourt body */
+.fourt-card-cover {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 2.7em;
+}
+
+.fourt-imag-card img {
+    width: 500px;
+}
+
+.fourt-card-cover .fourt-text {
+    text-align: start;
+    padding-top: 7em;
+}
+
+.fourt-text .create {
+    font-size: clamp(2.6em, 10vw, 2.6em); 
+    width: 80%;
+}
+
+.fourt-text .sendkids {
+    font-size: clamp(1.4em, 10vw, 1.4em); 
+    width: 100%;
+}
+/* end of fourt body */
+
+
+
+/* start of tittle box */
+
+.Frequently {
+    font-size: clamp(2.7rem, 10vw, 2.7rem); 
+}
+
+.ist-box {
+    padding: 2px 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.box-tittle {
+    font-size: clamp(1.4rem, 10vw, 1.4rem); 
+}
+
+.plus-icon {
+    font-size: clamp(3.6rem, 10vw, 3.6rem); 
+    font-weight: 100;
+}
+
+
+.second-box {
+    padding: 2px 20px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.third-box {
+    padding: 2px 20px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.fourt-box {
+    padding: 2px 20px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.fiffty-box  {
+    padding: 2px 20px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.sixty-box {
+    padding: 2px 20px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+/* end of tittle box */
+
+/* start of box text input */
+.tittle-box .text-input {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 1.7em;
+}
+
+.tittle-box input[type="text"]{ 
+    width: 350px;
+    height: 55px; 
+    }
+
+    .tittle-box button{ 
+    width: 200px;
+    height: 55px;
+    }
+/* end of box text input */
+
+}
+
+/* end responsiveness for big screen */
+
+
+
+
