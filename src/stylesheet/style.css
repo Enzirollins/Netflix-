@@ -97,6 +97,11 @@ input[type="text"]:focus {
     outline: 4px;
 }
 
+
+section {
+    height: 60vh;
+}
+
 section div button {
     color: white;
     width: 160px;
