@@ -37,6 +37,12 @@ section div button {
     padding-top: 20px;
 }
 
+.flex-screen {
+    display: flex;
+    gap: 17em;
+    padding: 0px 0px 0px 26px;
+}
+
 }
 /* end responsiveness for madie screen */
 
@@ -47,10 +53,6 @@ section div button {
 /* start responsiveness for big screen */
 
 @media only screen and (min-width: 900px) {
-
-    #nav-hero-section {
-    height: 100vh;
-    }
 
     .nav-cover {
         padding: 0px 150px 0px 150px;
@@ -125,7 +127,7 @@ main {
 
 .phone-text {
     text-align: start;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-left: 50px;
 }
 
@@ -143,7 +145,7 @@ main {
 
 /* start of third main body */
 .third-main-body {
-    height: 60vh;
+    padding: 40px 0px 180px 0px;
 }
 
 .third-main-body div {
@@ -282,6 +284,65 @@ main {
     height: 55px;
     }
 /* end of box text input */
+
+
+
+/* start of footer */
+.small-md-screen {
+    display: none;
+}
+
+footer {
+    display: block;
+    background-color: black;
+    padding: 0px 0px 50px 0px;
+    color: white;
+}
+
+.Questions {
+    display: block;
+    color: rgb(179, 179, 179);
+    padding: 60px 350px 0px 150px;
+    text-decoration: underline;
+}
+
+.footer-flex {
+    color: rgb(179, 179, 179);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 350px 0px 150px;
+}
+
+.ist-footer p, .second-footer p, .third-footer p, .fourt-footer p{
+    padding-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ist-footer .Netflix {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.ist-footer form {
+    padding: 30px 0px 0px 0px;
+}
+
+.ist-footer form select {
+    width: 120px;
+    height: 31px;
+    padding: 1px 0px 0px 10px;
+    font-size: 16px;
+    background-color: rgb(20, 19, 19);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* end of footer */
 
 }
 

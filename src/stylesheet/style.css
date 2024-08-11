@@ -10,6 +10,7 @@
     position: relative;
     width: 100%;
     background-color: black;
+    padding: 0px 0px 50px 0px;
 }
 
 
@@ -28,7 +29,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px 0px 0px;
     isolation: isolate;
 }
 
@@ -207,13 +207,13 @@ main {
 /* start of third-main-body */
 .third-main-body {
     background-color: black;
-    padding-top: 50px;
     border: 10px solid;
     border-color: rgb(35,35,35);
     border-left: none;
     border-right: none;
     border-top: none;
     color: white;
+    padding: 40px 0px 50px 0px;
 }
 
 .third-main-body div {
@@ -284,6 +284,12 @@ main {
 
 .tittle-box {
     background-color: black;
+    border: 10px solid;
+    border-color: rgb(35,35,35);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 0px 0px 60px 0px;
 }
 
 .Frequently {
@@ -382,7 +388,7 @@ main {
 /* strat of box text input */
 .ready {
     text-align: center;
-    font-size: clamp(1.3rem, 10vw, 1.2rem); 
+    font-size: clamp(1.1rem, 10vw, 1rem); 
     font-weight: 100%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -424,3 +430,79 @@ background: transparent;
     font-size: clamp(1.3rem, 10vw, 1.2rem); 
     }
 /* end of box text input */
+
+/* start of footer */
+footer {
+    display: block;
+    background-color: black;
+    padding: 0px 0px 50px 0px;
+    color: white;
+}
+
+.Questions {
+    display: none;
+}
+
+.footer-flex {
+    display: none;
+}
+
+.small-md-screen {
+    display: block;
+}
+
+.small-md-screen .Questionss {
+    padding: 30px 0px 0px 26px;
+    text-decoration: underline;
+    color: rgb(179, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.flex-screen {
+    display: flex;
+    gap: 7em;
+    padding: 0px 0px 0px 26px;
+}
+
+.secondd-footer p {
+    padding: 20px 0px 0px 0px;
+    text-decoration: underline;
+    color: rgb(179, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.secondd-footer .Netflix {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.small-md-screen form select {
+    width: 120px;
+    height: 31px;
+    margin-top: 20px;
+    padding: 1px 0px 0px 10px;
+    font-size: 16px;
+    background-color: rgb(20, 19, 19);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.small-md-screen .Netflix {
+    text-decoration: none;
+}
+
+.thirdd-footer p {
+    padding: 20px 0px 0px 0px;
+    text-decoration: underline;
+    color: rgb(179, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+/* end of footer */
